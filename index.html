@@ -62,23 +62,34 @@
         backdrop-filter: blur(2px);
       }
 
-      @media (max-width: 600px) {
+@media (max-width: 600px) {
   .card {
-    padding: 28px 20px;
+    padding: 16px 14px;
     border-radius: 12px;
     margin: 0 30px;
   }
   body {
     padding: 8px;
     align-items: flex-start;
-    padding-top: 20px;
+    padding-top: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
-        .header h1 { font-size: 26px; }
-        .header p  { font-size: 16px; }
-        .btn       { font-size: 18px; padding: 18px; }
-        select     { font-size: 17px; padding: 16px; }
-        label      { font-size: 16px; }
-      }
+  .header .icon    { font-size: 30px; margin-bottom: 4px; }
+  .header h1       { font-size: 18px; }
+  .header p        { font-size: 12px; }
+  .header          { margin-bottom: 12px; }
+  .form-group      { margin-bottom: 12px; }
+  .btn             { font-size: 15px; padding: 12px; }
+  .buttons         { gap: 8px; }
+  select           { font-size: 14px; padding: 10px; }
+  label            { font-size: 13px; margin-bottom: 6px; }
+  .dad-joke        { margin-top: 12px; padding: 10px 12px; }
+  .dad-joke .joke-text      { font-size: 12px; min-height: 24px; }
+  .dad-joke .joke-label     { font-size: 10px; margin-bottom: 4px; }
+  .dad-joke .joke-punchline { font-size: 12px; }
+  .dad-joke .reveal-btn     { font-size: 11px; padding: 4px 10px; margin-top: 6px; }
+}
 
       .header {
         text-align: center;
